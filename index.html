@@ -3,100 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neeraj's Resume</title>
+    <title>Neeraj Bhardwaj | System Engineer | TCS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Neeraj Bhardwaj</h1>
-        <p>System Engineer at TCS</p>
-    </header>
-    
-    <section id="profile-summary">
-        <h2>Profile Summary</h2>
-        <p> I am a data-driven professional specializing in Python, SQL, Data Science, and Machine Learning, with expertise in data analysis, data modeling, data wrangling, and data visualization. I leverage tools such as Pandas, NumPy, Matplotlib, and PostgreSQL to extract insights, optimize system performance, and drive data-driven decision-making.</p>
-    </section>
+    <div class="resume-container">
+        <header>
+            <div class="header-content">
+                <h1>Neeraj Bhardwaj</h1>
+                <p class="title">System Engineer</p>
+                <div class="contact-info">
+                    <span><i class="fas fa-envelope"></i> <a href="mailto:bhardwajneeraj501@gmail.com">bhardwajneeraj501@gmail.com</a></span>
+                    <span><i class="fas fa-phone"></i> +91-9899261111</span>
+                    <span><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/neeraj-bhardwaj-85b627169" target="_blank">linkedin.com/in/neeraj-bhardwaj</a></span>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section id="profile-summary">
+                <h2><i class="fas fa-user-tie"></i> Profile Summary</h2>
+                <p>Data-driven professional specializing in Python, SQL, Data Science, and Machine Learning, with expertise in data analysis, modeling, wrangling, and visualization. Leverage tools like Pandas, NumPy, Matplotlib, and PostgreSQL to extract insights, optimize system performance, and drive data-driven decision-making.</p>
+            </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>B. TECH. | NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY | 2018 - 2022</h3>
-                <p>Branch: Computer Science and Engineering</p>
-                <p>CGPA: 8.24</p>
-            </li>
-        </ul>
-    </section>
+            <div class="two-column">
+                <section id="education">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="education-item">
+                        <h3>B.Tech in Computer Science</h3>
+                        <p class="institution">Noida Institute of Engineering and Technology</p>
+                        <p class="date">2018 - 2022</p>
+                        <p class="details">CGPA: 8.24</p>
+                    </div>
+                </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li> Python — Expert</li>
-            <li>SQL(MySQL,PostgreSQL) — Expert</li>
-            <li>Git & Github — Expert</li>
-            <li>Data Analysis(Pandas, NumPy) — Expert</li>
-            <li>Data Visualization(Matplotlib, Seaborn, Ploty) — Proficient</li>
-            <li>Machine Learning(Scikit-learn) — Competent</li>
-            <li>Flask — Proficient</li>
-        </ul>
-    </section>
+                <section id="skills">
+                    <h2><i class="fas fa-code"></i> Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>Technical</h3>
+                            <ul>
+                                <li><span class="skill-name">Python</span> <span class="skill-level">(Expert)</span></li>
+                                <li><span class="skill-name">SQL (MySQL, PostgreSQL)</span> <span class="skill-level">(Expert)</span></li>
+                                <li><span class="skill-name">Git & GitHub</span> <span class="skill-level">(Expert)</span></li>
+                                <li><span class="skill-name">Data Analysis (Pandas, NumPy)</span> <span class="skill-level">(Expert)</span></li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Professional</h3>
+                            <ul>
+                                <li><span class="skill-name">Data Visualization</span> <span class="skill-level">(Proficient)</span></li>
+                                <li><span class="skill-name">Machine Learning</span> <span class="skill-level">(Competent)</span></li>
+                                <li><span class="skill-name">Flask</span> <span class="skill-level">(Proficient)</span></li>
+                                <li><span class="skill-name">AWS Lambda</span> <span class="skill-level">(Experienced)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <h3>SYSTEM ENGINEER | TATA CONSULTANCY SERVICES | 2024-PRESENT</h3>
-                <p>Identified and mitigated potential cyber threats by analyzing system logs with Python, and Machine Learning (Scikit-learn), implementing data-driven security measures.</p>   
-            </li>
-            <li>
-                <h3>ASSISTANT SYSTEM ENGINEER | TATA CONSULTANCY SERVICES | 2022-2024</h3>
-                <p>Investigated and resolved system alerts by applying statistical analysis, anomaly detection techniques, and SQL queries to identify patterns and root causes. </p>
-                <p>Managed access controls and automated server maintenance tasks using Python, Shell scripting, and APIs to enhance operational efficiency</p>
+            <section id="experience">
+                <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3>System Engineer</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">2024 - Present</p>
+                    </div>
+                    <ul>
+                        <li>Identified and mitigated potential cyber threats by analyzing system logs with Python and Machine Learning (Scikit-learn), implementing data-driven security measures.</li>
+                    </ul>
+                </div>
                 
-            </li>
-            <li>
-                <h3>ASSISTANT SYSTEM ENGINEER TRAINEE | TATA CONSULTANCY SERVICES | 2022-2024</h3>
-                <p>Monitored and analyzed IT system performance, ensuring high availability by leveraging data-driven insights. </p>
-                <p> Generated daily analytical reports for management, providing key performance metrics and actionable recommendations.</p>
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3>Assistant System Engineer</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">2022 - 2024</p>
+                    </div>
+                    <ul>
+                        <li>Investigated and resolved system alerts by applying statistical analysis, anomaly detection techniques, and SQL queries to identify patterns and root causes.</li>
+                        <li>Managed access controls and automated server maintenance tasks using Python, Shell scripting, and APIs to enhance operational efficiency.</li>
+                    </ul>
+                </div>
                 
-            </li>
-        </ul>
-    </section>
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3>Assistant System Engineer Trainee</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">2022 - 2024</p>
+                    </div>
+                    <ul>
+                        <li>Monitored and analyzed IT system performance, ensuring high availability by leveraging data-driven insights.</li>
+                        <li>Generated daily analytical reports for management, providing key performance metrics and actionable recommendations.</li>
+                    </ul>
+                </div>
+            </section>
 
-    <section id="internship">
-        <h2>Internship</h2>
-        <ul>
-            <li>
-                <h3>PROGRAMMER ANALYST TRAINEE | COGNIZANT | FEB 2022 - AUG 2022</h3>
-                <p>Designed a serverless system using AWS Lambda to connect Python backend with HTML & CSS frontend</p>
-                <p>Integrated API Gateway with AWS Lambda for efficient data transfer and retrieval</p>
-            </li>
-        </ul>
-    </section>
+            <div class="two-column">
+                <section id="internship">
+                    <h2><i class="fas fa-laptop-code"></i> Internship</h2>
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <h3>Programmer Analyst Trainee</h3>
+                            <p class="company">Cognizant</p>
+                            <p class="date">Feb 2022 - Aug 2022</p>
+                        </div>
+                        <ul>
+                            <li>Designed a serverless system using AWS Lambda to connect Python backend with HTML & CSS frontend.</li>
+                            <li>Integrated API Gateway with AWS Lambda for efficient data transfer and retrieval.</li>
+                        </ul>
+                    </div>
+                </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Salesforce Certified AI Associate</li>
-            <li>Career Essentials in Data Analysis by Microsoft and LinkedIn</li>
-            <li>HackerRank Certified Python</li>
-            <li>Big Data by Digital Vidya</li>
-        </ul>
-    </section>
-    <section id="Awards">
-        <h2>Awards</h2>
-        <ul>
-            <li>Xcelerate Warrior | Tata Consultancy Services | 28 Feb 2025</li>
-            <li>On the Spot Award | Tata Consultancy Services | 07 May 2024</li>
-            <li> Star Team Award | Tata Consultancy Services | 08 Feb 2024</li>
-            
-        </ul>
-    </section>
+                <section id="certifications">
+                    <h2><i class="fas fa-certificate"></i> Certifications</h2>
+                    <ul class="cert-list">
+                        <li>Salesforce Certified AI Associate</li>
+                        <li>Career Essentials in Data Analysis by Microsoft and LinkedIn</li>
+                        <li>HackerRank Certified Python</li>
+                        <li>Big Data by Digital Vidya</li>
+                    </ul>
+                </section>
+            </div>
 
-    <footer>
-        <h4><a href="mailto:bhardwajneeraj501@gmail.com">bhardwajneeraj501@gmail.com</a></h4>
-        <h4>+91-9899261111</h4>
-        <a href="https://www.linkedin.com/in/neeraj-bhardwaj-85b627169" target="_blank">LinkedIn</a>
-    </footer>
+            <section id="awards">
+                <h2><i class="fas fa-trophy"></i> Awards & Honors</h2>
+                <div class="awards-container">
+                    <div class="award-item">
+                        <h3>Xcelerate Warrior</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">Feb 2025</p>
+                    </div>
+                    <div class="award-item">
+                        <h3>On the Spot Award</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">May 2024</p>
+                    </div>
+                    <div class="award-item">
+                        <h3>Star Team Award</h3>
+                        <p class="company">Tata Consultancy Services</p>
+                        <p class="date">Feb 2024</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
